@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-10-28T05:36:39.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="T7ZJx5KsenZ0RIPVbHcL" version="22.0.8" type="github">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="terminate&#xa;contract&#xa;" style="shape=mxgraph.flowchart.merge_or_storage;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="1300" width="130" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="640" y="1396" as="sourcePoint" />
+            <mxPoint x="825" y="1436" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-55" value="管理员登录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-56" value="根据教师信息创建教师账号" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261.5" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-57" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="321" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-59" value="校验信息完整性" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="262" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-60" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-61" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="281" y="440" width="78" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="wJdU_Nf6YIis5s1w9zZT-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="460" />
+              <mxPoint x="440" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-63" value="信息不完整" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wJdU_Nf6YIis5s1w9zZT-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="340" as="sourcePoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJdU_Nf6YIis5s1w9zZT-65" value="结束" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
