@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T05:40:16.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UQgVPPzj5gsBc5PgJxqs" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T05:42:27.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GdtXVs4eUo17PmP1ogLk" version="22.0.8" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -66,19 +66,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wJdU_Nf6YIis5s1w9zZT-65" value="结束" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="740" width="120" height="30" as="geometry" />
+          <mxGeometry x="610" y="705" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-33" value="判断账号是否存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-33" value="判断账号是否存在" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="500" as="sourcePoint" />
             <mxPoint x="320" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-35" value="判断密码是否正确" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="lrlmSxfgCF_-cjUJ0Jiy-35" value="判断密码是否正确" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261.5" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lrlmSxfgCF_-cjUJ0Jiy-35" target="lrlmSxfgCF_-cjUJ0Jiy-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lrlmSxfgCF_-cjUJ0Jiy-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="720" as="sourcePoint" />
+            <mxPoint x="322" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="700" width="78" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="720" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="720" />
+              <mxPoint x="210" y="640" />
+              <mxPoint x="210" y="560" />
+              <mxPoint x="210" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-12" value="账号不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-14" value="登录成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YpjsiR0Ej5Osr4Qk32iu-10" target="YpjsiR0Ej5Osr4Qk32iu-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpjsiR0Ej5Osr4Qk32iu-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wJdU_Nf6YIis5s1w9zZT-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="720" as="sourcePoint" />
+            <mxPoint x="590" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
